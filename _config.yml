@@ -20,7 +20,7 @@ domainUrl: 'https://fenglilinglegeluan.github.io'
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://support.qq.com/products/3014955
+tucaoUrl: https://support.qq.com/products/301495
 
 # 菜单
 menu:
