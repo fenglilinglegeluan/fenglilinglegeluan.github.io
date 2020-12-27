@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>关于我-Fenglilinglegeluan Blog</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="content-language" content="zh-CN" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="applicable-device" content="pc,mobile">
+  <meta name="google-site-verification" content="ckhUaoa05QCmWoE1FafzTBcqYI4yBOy-UJKopXDS18M" />
+  <meta name="author" content="Fenglilinglegeluan" />
+  <meta name="description" content="Fenglilinglegeluan的个人博客"/>
+  <meta name="keywords" content="LTT,Fenglilinglegeluan,Blog,PHP,Python,"/>
+  <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="/static/css/common.css?t=20201227182910">
+  <link rel="stylesheet" href="/static/css/post.css?t=20201227182910">
+  <link rel="stylesheet" href="/static/css/highlight.css?t=20201227182910">
+</head>
+<body ondragstart="return false;">
+<header class="header select-none">
+  <img class="logo" src="/static/img/logo.jpg" />
+  <nav class="menu">
+    <a href="/" class="hover-underline">首页</a>
+    <a href="/pages/categories.html" class="hover-underline">归类</a>
+    <a href="/pages/search.html" class="hover-underline">搜索</a>
+    <a href="/pages/links.html" class="hover-underline">友链</a>
+    <a href="/pages/chat.html" class="hover-underline">留言</a>
+    <a href="/pages/about.html" class="hover-underline">关于</a>
+    </nav>
+</header>
+<div class="page page-post">
+  <h1 class="title" id="关于我">关于我</h1>
+  
+  <div class="post">
+    > Hello 陌生人，欢迎访问 FengLiLingLegeLuan Blog
+
+该博客托管于 GitHub Page，国内默认解析到腾讯云，以保证国内外的访问速度。留言页面使用腾讯的“吐个槽”，另外使用的腾讯的 MTA 分析工具统计访问量
+
+主题使自己写的，见[tmaize-blog](https://github.com/TMaize/tmaize-blog)，欢迎 Star&Fork。另喜欢本博客的欢迎**添加友链**，在[留言板](chat.html)留言即可
+
+## 相关技能
+
+- 熟悉 JavaScript 语言， 熟练使用 Vue 全家桶,jQuery 等前端框架
+
+- 熟悉 Java，NodeJs,Go 等后端语言
+
+- 后端框架 Spring，Hibernate，JFinal，Mybatis 略有了解
+
+- 数据库方面能熟练使用 MySQL,Oracle，MongoDB
+
+- Linux 的简单使用，各种服务的搭建
+
+- 能够使用 Git/SVN 对代码版本进行控制
+
+## 联系我
+
+- QQ : 1772314831
+
+- Email : [tmaize@qq.com](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=YBQNAQkaBSAREU4DDw0)
+
+- GitHub : [https://github.com/tmaize](https://github.com/tmaize)
+
+  </div>
+  
+</div>
+<footer class="footer select-none">
+  <span>Copyright © 2016 皖ICP备号</span>
+  <!-- <a href="/static/xml/rss.xml">RSS订阅</a-->
+</footer>
+<div id="to-top" class="select-none">
+  <span></span>
+  <span></span>
+</div>
+<script>window.blog={baseurl:"", buildAt:"20201227182910"}</script>
+<script type="text/javascript" src="/static/js/blog.js?t=20201227182910"></script>
+
+<!-- 点击页面文字冒出特效 -->
+<script>
+;(function(){
+  var textArr = ['富强', '民主', '文明', '和谐', '自由', '平等', '公正', '法治', '爱国', '敬业', '诚信', '友善']
+  window.blog.initClickEffect(textArr)
+})()
+</script>
+
+<!-- 腾讯MTA移动分析 -->
+<script>
+  var _mtac = {performanceMonitor: 1, senseQuery: 1}
+  ;(function() {
+    if (window.location.hostname == '127.0.0.1') {
+      return
+    }
+    var mta = document.createElement('script')
+    mta.src = '//pingjs.qq.com/h5/stats.js?v2.0.4'
+    mta.setAttribute('name', 'MTAH5')
+    mta.setAttribute('sid', '500581966')
+    mta.setAttribute('cid', '500581972')
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(mta, s)
+  })()
+</script>
+
+<!-- 百度自动推送 -->
+<script>
+  ;(function () {
+    if (window.location.hostname == '127.0.0.1') {
+      return
+    }
+    var bp = document.createElement('script')
+    var curProtocol = window.location.protocol.split(':')[0]
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js'
+    } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js'
+    }
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(bp, s)
+  })()
+</script>
+
+
+</body>
+</html>
