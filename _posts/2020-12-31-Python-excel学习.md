@@ -1,6 +1,10 @@
-[TOC]
+---
+layout: mypost
+title: Python-excel学习
+categories: [Python,文本处理]
+---
 
-# python-excel学习
+[TOC]
 
 ## 调用库文件
 

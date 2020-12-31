@@ -1,4 +1,8 @@
-# Python读取word中的表格
+---
+layout: mypost
+title: Python读取word中的表格
+categories: [Python,文本处理]
+---
 
 ## word读取操作
 

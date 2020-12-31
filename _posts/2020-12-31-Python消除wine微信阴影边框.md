@@ -1,6 +1,10 @@
-[TOC]
+---
+layout: mypost
+title: Python消除wine微信阴影边框
+categories: [Python,其他]
+---
 
-# python消除微信阴影边框
+[TOC]
 
 #### 1. shebang
 
