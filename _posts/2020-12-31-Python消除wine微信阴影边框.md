@@ -4,8 +4,6 @@ title: Python消除wine微信阴影边框
 categories: [Python,其他]
 ---
 
-[TOC]
-
 #### 1. shebang
 
 **shebang**的作用是指定解释器，这样就可以在终端直接运行程序，或者图形化双击运行程序
