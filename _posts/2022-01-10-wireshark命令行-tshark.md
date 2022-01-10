@@ -1,0 +1,74 @@
+---
+layout: mypost
+title:  tshark
+categories: [抓包]
+---
+
+实际使用中,wireshark 读取很大的捕获文件力不从心.因此需要使用命令行工具提高效率,借助脚本实现自动化.
+
+例:
+
+```bash
+tshark -r *.pcapng | grep -e GET #tshark -r 读取数据包,grep -e 筛选出需要的信息.
+```
+
+### 1. 概述信息\统计数据\筛选并生成新数据包.
+
+#### 1.1 概述信息
+
+```bash
+capinfos *.pcapng #概述信息
+```
+
+![image-20220110090036903](/home/hydra/Desktop/tshark.assets/image-20220110090036903.png)
+
+#### 1.2 统计数据
+
+```bash
+tshark -n -q -r *.pcap -z "rpc,programs"
+tshark -n -q -r *.pcap -z "smb,srt"
+-n 禁止名字解析
+-q 统计使用 标准输出
+-r 读取捕获文件
+-z 捕获参数
+```
+
+##### 优势:生成文档可用报表
+
+```bash
+tshark -n -q -r *.cap -z "io,stat,1.00,AVG(smb.time)smb.time"
+```
+
+![image-20220110090838509](/home/hydra/Desktop/tshark.assets/image-20220110090838509.png)
+
+#### 1.3 筛选并生成新数据包
+
+```bash
+tshark -r *pcapng -Y "ip.addr==192.168.1.1" -w test.pcapng
+```
+
+### 其他
+
+#### 统计重传
+
+```bash
+tshark -n -q -r *.pcap -z "io,stat,0,tcp.analysis.retransmission"
+```
+
+![image-20220110092057570](/home/hydra/Desktop/tshark.assets/image-20220110092057570.png)
+
+#### 查看tcp会话信息
+
+```bash
+tshark -n -q -r *.pcap -z "conv,tcp"
+```
+
+![image-20220110092502775](/home/hydra/Desktop/tshark.assets/image-20220110092502775.png)
+
+#### 以4秒为间隔拆分成多个捕获文件
+
+```bash
+ editcap *.pcapng test.pcapng -i 4
+```
+
+![image-20220110102130416](/home/hydra/Desktop/tshark.assets/image-20220110102130416.png) 
