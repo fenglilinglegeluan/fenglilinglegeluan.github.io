@@ -30,11 +30,11 @@ adb pull /data/data/packname/databases/db_file.db #push 是拷入文件
 
 1、2 步骤需要 `adb devices` 能看到设备才能连上 `shell`
 
-![](image-20220503171153984.png)
+![image-20220503171153984.png](image-20220503171153984.png)
 
 3、步骤 需要退出 `shell`
 
-![](image-20220503171344838.png)
+![image-20220503171344838.png](image-20220503171344838.png)
 
 > 冲动：手机中装了 andrax 充当 移动 linux 电脑，但是不能访问手机 sdcard 中的文件，不方便拷东西。
 
